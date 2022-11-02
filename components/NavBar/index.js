@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav class=" bg-yellow-400 fixed w-full z-20 top-0 left-0 border-b border-yellow-200 ">
-      <div class="container mx-auto flex justify-center">
+      <div class="container mx-auto flex justify-center pt-4">
         <div>
           <Link href="/">
             <div class="text-5xl font-bold hover:font-extra-bold">
@@ -22,11 +22,11 @@ const Navbar = () => {
                 <div>
                   <span class="text-black">Authentic</span>
                   <span class="text-white">Max</span>
-                  <div class="text-right text-2xl">
-                    <p class="">.com</p>
+                  <div class="font-extra-light text-right text-base -translate-y-5">
+                    <p >.com</p>
                   </div>
                 </div>
-                <div>
+                <div class="font-extra-light text-right text-2xl translate-y-2">
                   <span>®</span>
                 </div>
               </div>

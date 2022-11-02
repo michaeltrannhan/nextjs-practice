@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {},
     fontWeight:{
+      'extra-light':100,
       'bold':700,
       'extra-bold': 800,
     },
