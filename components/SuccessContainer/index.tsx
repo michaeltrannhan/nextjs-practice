@@ -23,7 +23,7 @@ const SuccessContainer = () => {
           </div>
           <div className="flex-row">
             <p>Owned by</p>
-
+            Tui bi loi sign commit nen commit thua`` 1 cai nha
             <div className="text-bold">Dao Viet Thanh</div>
           </div>
         </div>
