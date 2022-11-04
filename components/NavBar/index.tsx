@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
-import styles from "./styles";
+// import styles from "./styles";
 import Link from "next/link";
 // import classNames from 'classnames';
 import { useRouter } from "next/router";
@@ -13,20 +13,20 @@ const Navbar = () => {
   //   if (!router.isReady) return null;
 
   return (
-    <nav class=" bg-yellow-400 fixed w-full z-20 top-0 left-0 border-b border-yellow-200 ">
-      <div class="container mx-auto flex justify-center pt-4">
+    <nav className="bg-yellow-400 fixed w-full z-20 top-0 left-0 border-yellow-200 drop-shadow-xl ">
+      <div className="container mx-auto flex justify-center pt-4">
         <div>
           <Link href="/">
-            <div class="text-5xl font-bold hover:font-extra-bold">
-              <div class="flex">
+            <div className="h-[70.67] text-5xl font-bold">
+              <div className="flex">
                 <div>
-                  <span class="text-black">Authentic</span>
-                  <span class="text-white">Max</span>
-                  <div class="font-extra-light text-right text-base -translate-y-5">
-                    <p >.com</p>
+                  <span className="text-black">Authentic</span>
+                  <span className="text-white">Max</span>
+                  <div className="font-extra-light text-right text-base -translate-y-5">
+                    <p>.com</p>
                   </div>
                 </div>
-                <div class="font-extra-light text-right text-2xl translate-y-2">
+                <div className="font-extra-light text-right text-2xl translate-y-2">
                   <span>®</span>
                 </div>
               </div>
